@@ -27,3 +27,5 @@ The APK file contains the app, so feel free to download it and try it by yoursel
 Don't forget to change your phone language to English if necessary :)
 
 While programming the app I used several UI tools that android studio suggests, RecyclerView, ListView, CardView, etc'...
+
+Have Fun!
