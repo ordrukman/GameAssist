@@ -5,7 +5,7 @@ A self-learn project using and learnning android studio application.
 I create an app called GameAssist. Created while implementing the principles of OOP and app design.
 The App purpose is to manage tournaments or few matchups games between an unlimited number of players.
 
-App Flow:
+App Description:
 
 First the user insert the players names one by one:
 
