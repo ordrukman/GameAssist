@@ -1,7 +1,7 @@
 # GameAssist
 Android app, assisting to manage your game.
 
-A self-learn project using and learnning android studio application.
+A self-learn project using and learnning android studio IDE.
 I create an app called GameAssist. Created while implementing the principles of OOP and app design.
 The App purpose is to manage tournaments or few matchups games between an unlimited number of players.
 
