@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtEnterNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Enter Players Name"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic|bold" />
+
+    <EditText
+        android:id="@+id/edtPlayerName"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEnterNames"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:hint="Player name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="#7AFFFFFF" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="116dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/edtPlayerName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="SUBMIT"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edtPlayerName"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#8D00FFD9"
+        android:text="add"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parant"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:padding="10dp"
+    app:cardBackgroundColor="#7C03A7FF"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="match Name"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/edtWhoWins"
+            android:layout_width="92dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="17dp"
+            android:hint="Winner?" />
+
+        <Button
+            android:id="@+id/checkBtn"
+            android:layout_width="60dp"
+            android:layout_height="46dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="7dp"
+            android:layout_toRightOf="@+id/edtWhoWins"
+            android:backgroundTint="@drawable/btn_apply_color"
+            android:text="Apply"
+            android:textSize="8dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
